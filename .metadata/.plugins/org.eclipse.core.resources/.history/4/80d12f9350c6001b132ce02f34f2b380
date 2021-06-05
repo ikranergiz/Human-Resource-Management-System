@@ -1,0 +1,5 @@
+package hrms.northwind.dataAccess.abstracts;
+
+public interface JobPositionDao {
+
+}
