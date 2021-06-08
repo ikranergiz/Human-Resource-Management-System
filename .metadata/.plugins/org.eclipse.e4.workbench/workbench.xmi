@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_IWBaQcZTEeuIj-ZbZDNf3w" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_IWBaQsZTEeuIj-ZbZDNf3w" bindingContexts="_IWBaS8ZTEeuIj-ZbZDNf3w">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobPositionDao.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/dataAccess/abstracts/JobPositionDao.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/src/main/java/hrms/northwind/dataAccess/abstracts/JobPositionDao.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobPositionService.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/business/abstracts/JobPositionService.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/src/main/java/hrms/northwind/business/abstracts/JobPositionService.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobPosition.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/entities/concretes/JobPosition.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/src/main/java/hrms/northwind/entities/concretes/JobPosition.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobPositionManager.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/business/concretes/JobPositionManager.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/src/main/java/hrms/northwind/business/concretes/JobPositionManager.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobPositionController.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/api/controller/JobPositionController.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/src/main/java/hrms/northwind/api/controller/JobPositionController.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;application.properties&quot; tooltip=&quot;northwind/src/main/resources/application.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/src/main/resources/application.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;NorthwindApplication.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/NorthwindApplication.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/src/main/java/hrms/northwind/NorthwindApplication.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;HibernateUserDao.java&quot; tooltip=&quot;E-CommerceDemo/src/eCommerceDemo/dataAccess/concretes/HibernateUserDao.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/E-CommerceDemo/src/eCommerceDemo/dataAccess/concretes/HibernateUserDao.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;UserDao.java&quot; tooltip=&quot;E-CommerceDemo/src/eCommerceDemo/dataAccess/abstracts/UserDao.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/E-CommerceDemo/src/eCommerceDemo/dataAccess/abstracts/UserDao.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;Object.class&quot; tooltip=&quot;java.lang.Object&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=northwind/C:\/Program Files\/Java\/jdk-16.0.1\/lib\/jrt-fs.jar`java.base=/maven.pomderived=/true=/&amp;lt;java.lang(Object.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;package-info.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/dataAccess/concretes/package-info.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/src/main/java/hrms/northwind/dataAccess/concretes/package-info.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;package-info.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/entities/abstracts/package-info.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/src/main/java/hrms/northwind/entities/abstracts/package-info.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;northwind/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobPositionController.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/api/controller/JobPositionController.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/src/main/java/hrms/northwind/api/controller/JobPositionController.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;application.properties&quot; tooltip=&quot;northwind/src/main/resources/application.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/src/main/resources/application.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;NorthwindApplication.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/NorthwindApplication.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/src/main/java/hrms/northwind/NorthwindApplication.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobPositionService.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/business/abstracts/JobPositionService.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/src/main/java/hrms/northwind/business/abstracts/JobPositionService.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobPositionManager.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/business/concretes/JobPositionManager.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/src/main/java/hrms/northwind/business/concretes/JobPositionManager.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobPositionDao.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/dataAccess/abstracts/JobPositionDao.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/src/main/java/hrms/northwind/dataAccess/abstracts/JobPositionDao.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobPosition.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/entities/concretes/JobPosition.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/src/main/java/hrms/northwind/entities/concretes/JobPosition.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;northwind/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;HibernateUserDao.java&quot; tooltip=&quot;E-CommerceDemo/src/eCommerceDemo/dataAccess/concretes/HibernateUserDao.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/E-CommerceDemo/src/eCommerceDemo/dataAccess/concretes/HibernateUserDao.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;UserDao.java&quot; tooltip=&quot;E-CommerceDemo/src/eCommerceDemo/dataAccess/abstracts/UserDao.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/E-CommerceDemo/src/eCommerceDemo/dataAccess/abstracts/UserDao.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;Object.class&quot; tooltip=&quot;java.lang.Object&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=northwind/C:\/Program Files\/Java\/jdk-16.0.1\/lib\/jrt-fs.jar`java.base=/maven.pomderived=/true=/&amp;lt;java.lang(Object.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;package-info.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/dataAccess/concretes/package-info.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/src/main/java/hrms/northwind/dataAccess/concretes/package-info.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;package-info.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/entities/abstracts/package-info.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/northwind/src/main/java/hrms/northwind/entities/abstracts/package-info.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_IWBaQsZTEeuIj-ZbZDNf3w" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_Is_v0cZTEeuIj-ZbZDNf3w" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_IWBaQsZTEeuIj-ZbZDNf3w" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_Is_v0cZTEeuIj-ZbZDNf3w" label="%trimmedwindow.label.eclipseSDK" x="714" y="0" width="1215" height="1038">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -232,7 +232,7 @@
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_sJ4wKMZcEeuipNw75qOQlQ" containerData="7482" selectedElement="_sJ4wKcZcEeuipNw75qOQlQ">
               <children xsi:type="advanced:Placeholder" xmi:id="_sJ4wKcZcEeuipNw75qOQlQ" elementId="org.eclipse.ui.editorss" containerData="5000" ref="_I0mMoMZTEeuIj-ZbZDNf3w"/>
-              <children xsi:type="basic:PartStack" xmi:id="_sJ4wKsZcEeuipNw75qOQlQ" elementId="bottom" visible="false" containerData="5000" selectedElement="_0qZYoMZcEeuipNw75qOQlQ">
+              <children xsi:type="basic:PartStack" xmi:id="_sJ4wKsZcEeuipNw75qOQlQ" elementId="bottom" visible="false" containerData="5000" selectedElement="_sJ4wLcZcEeuipNw75qOQlQ">
                 <tags>General</tags>
                 <tags>Minimized</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_sJ4wK8ZcEeuipNw75qOQlQ" elementId="org.eclipse.team.ui.GenericHistoryView" toBeRendered="false" ref="_sJ0esMZcEeuipNw75qOQlQ" closeable="true">
@@ -255,7 +255,7 @@
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
                 </children>
-                <children xsi:type="advanced:Placeholder" xmi:id="_0qZYoMZcEeuipNw75qOQlQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_I6XdcMZTEeuIj-ZbZDNf3w" closeable="true">
+                <children xsi:type="advanced:Placeholder" xmi:id="_0qZYoMZcEeuipNw75qOQlQ" elementId="org.eclipse.ui.console.ConsoleView" toBeRendered="false" ref="_I6XdcMZTEeuIj-ZbZDNf3w" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
                 </children>
@@ -305,38 +305,56 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_I0mMoMZTEeuIj-ZbZDNf3w" elementId="org.eclipse.ui.editorss" selectedElement="_I0mMocZTEeuIj-ZbZDNf3w">
-      <children xsi:type="basic:PartStack" xmi:id="_I0mMocZTEeuIj-ZbZDNf3w" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_yWrCgMZcEeuipNw75qOQlQ">
+      <children xsi:type="basic:PartStack" xmi:id="_I0mMocZTEeuIj-ZbZDNf3w" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_C91bIMikEeunB8T_lkt7ew">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
-        <children xsi:type="basic:Part" xmi:id="_XEyC0MZVEeuipNw75qOQlQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="JobPosition.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobPosition.java&quot; partName=&quot;JobPosition.java&quot; title=&quot;JobPosition.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/entities/concretes/JobPosition.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/northwind/src/main/java/hrms/northwind/entities/concretes/JobPosition.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;643&quot; selectionTopPixel=&quot;216&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_yWrCgMZcEeuipNw75qOQlQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="NorthwindApplication.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;NorthwindApplication.java&quot; partName=&quot;NorthwindApplication.java&quot; title=&quot;NorthwindApplication.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/NorthwindApplication.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/northwind/src/main/java/hrms/northwind/NorthwindApplication.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;13&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_C91bIMikEeunB8T_lkt7ew" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="JobPositionController.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobPositionController.java&quot; partName=&quot;JobPositionController.java&quot; title=&quot;JobPositionController.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/api/controller/JobPositionController.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/northwind/src/main/java/hrms/northwind/api/controller/JobPositionController.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;854&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>active</tags>
           <tags>activeOnClose</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_5XZ6UMZcEeuipNw75qOQlQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="application.properties" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/file_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;application.properties&quot; partName=&quot;application.properties&quot; title=&quot;application.properties&quot; tooltip=&quot;northwind/src/main/resources/application.properties&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/northwind/src/main/resources/application.properties&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;251&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.jdt.ui.PropertiesFileEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_T49GYMZdEeuipNw75qOQlQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="JobPositionManager.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobPositionManager.java&quot; partName=&quot;JobPositionManager.java&quot; title=&quot;JobPositionManager.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/business/concretes/JobPositionManager.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/northwind/src/main/java/hrms/northwind/business/concretes/JobPositionManager.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;375&quot; selectionTopPixel=&quot;20&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_uQSjIMilEeunB8T_lkt7ew" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="NorthwindApplication.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;NorthwindApplication.java&quot; partName=&quot;NorthwindApplication.java&quot; title=&quot;NorthwindApplication.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/NorthwindApplication.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/northwind/src/main/java/hrms/northwind/NorthwindApplication.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;979&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_ghbp0MZdEeuipNw75qOQlQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="JobPositionController.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobPositionController.java&quot; partName=&quot;JobPositionController.java&quot; title=&quot;JobPositionController.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/api/controller/JobPositionController.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/northwind/src/main/java/hrms/northwind/api/controller/JobPositionController.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;9&quot; selectionOffset=&quot;530&quot; selectionTopPixel=&quot;178&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_IS37QMimEeunB8T_lkt7ew" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="application.properties" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/file_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;application.properties&quot; partName=&quot;application.properties&quot; title=&quot;application.properties&quot; tooltip=&quot;northwind/src/main/resources/application.properties&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/northwind/src/main/resources/application.properties&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;357&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.jdt.ui.PropertiesFileEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_lgivUMimEeunB8T_lkt7ew" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="JobPositionManager.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobPositionManager.java&quot; partName=&quot;JobPositionManager.java&quot; title=&quot;JobPositionManager.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/business/concretes/JobPositionManager.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/northwind/src/main/java/hrms/northwind/business/concretes/JobPositionManager.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_z2_QcMimEeunB8T_lkt7ew" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="northwind/pom.xml" iconURI="platform:/plugin/org.eclipse.m2e.editor/icons/editor-pom.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; partName=&quot;northwind/pom.xml&quot; title=&quot;northwind/pom.xml&quot; tooltip=&quot;northwind/pom.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/northwind/pom.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.m2e.editor.MavenPomEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_F5lTMMinEeunB8T_lkt7ew" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="JobPosition.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobPosition.java&quot; partName=&quot;JobPosition.java&quot; title=&quot;JobPosition.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/entities/concretes/JobPosition.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/northwind/src/main/java/hrms/northwind/entities/concretes/JobPosition.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;576&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_G8hW4MinEeunB8T_lkt7ew" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="JobPositionDao.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobPositionDao.java&quot; partName=&quot;JobPositionDao.java&quot; title=&quot;JobPositionDao.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/dataAccess/abstracts/JobPositionDao.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/northwind/src/main/java/hrms/northwind/dataAccess/abstracts/JobPositionDao.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_IzffkMinEeunB8T_lkt7ew" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="JobPositionService.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobPositionService.java&quot; partName=&quot;JobPositionService.java&quot; title=&quot;JobPositionService.java&quot; tooltip=&quot;northwind/src/main/java/hrms/northwind/business/abstracts/JobPositionService.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/northwind/src/main/java/hrms/northwind/business/abstracts/JobPositionService.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -431,7 +449,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_P6SG0cZcEeuipNw75qOQlQ" elementId="org.eclipse.ui.console.ConsoleView"/>
+      <toolbar xmi:id="_P6SG0cZcEeuipNw75qOQlQ" elementId="org.eclipse.ui.console.ConsoleView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_I6XdccZTEeuIj-ZbZDNf3w" elementId="org.eclipse.ui.views.BookmarkView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Bookmarks" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/bkmrk_nav.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.markers.BookmarksView"/>
@@ -545,7 +563,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_vMm6QcZcEeuipNw75qOQlQ" elementId="org.eclipse.egit.ui.StagingView" visible="false"/>
+      <toolbar xmi:id="_vMm6QcZcEeuipNw75qOQlQ" elementId="org.eclipse.egit.ui.StagingView"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_sJ1FwMZcEeuipNw75qOQlQ" elementId="org.eclipse.egit.ui.ReflogView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Git Reflog" iconURI="platform:/plugin/org.eclipse.egit.ui/icons/eview16/reflog.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.egit.ui"/>
@@ -560,7 +578,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_IvV5MMZTEeuIj-ZbZDNf3w" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_4EFnYMZTEeuipNw75qOQlQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_IWt9-8ZTEeuIj-ZbZDNf3w"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_vxhXQMijEeunB8T_lkt7ew" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_IWt9-8ZTEeuIj-ZbZDNf3w"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_IvV5McZTEeuIj-ZbZDNf3w" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -597,7 +615,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_IvWgQMZTEeuIj-ZbZDNf3w" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_4ELuAMZTEeuipNw75qOQlQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_IWtWzMZTEeuIj-ZbZDNf3w"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_vxlosMijEeunB8T_lkt7ew" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_IWtWzMZTEeuIj-ZbZDNf3w"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_IvWgQcZTEeuIj-ZbZDNf3w" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -742,8 +760,6 @@
     <bindings xmi:id="_IXbvjcZTEeuIj-ZbZDNf3w" keySequence="CTRL+SHIFT+NUMPAD_DIVIDE" command="_IWrhu8ZTEeuIj-ZbZDNf3w"/>
     <bindings xmi:id="_IXc9ocZTEeuIj-ZbZDNf3w" keySequence="ALT+/" command="_IWulFcZTEeuIj-ZbZDNf3w"/>
     <bindings xmi:id="_IXc9pcZTEeuIj-ZbZDNf3w" keySequence="SHIFT+CR" command="_IWulD8ZTEeuIj-ZbZDNf3w"/>
-    <bindings xmi:id="_3ucukcZTEeuipNw75qOQlQ" keySequence="CTRL+F" command="_3t4G18ZTEeuipNw75qOQlQ"/>
-    <bindings xmi:id="_3uhAAMZTEeuipNw75qOQlQ" keySequence="ESC" command="_3t4t7sZTEeuipNw75qOQlQ"/>
   </bindingTables>
   <bindingTables xmi:id="_IXNtEMZTEeuIj-ZbZDNf3w" elementId="org.eclipse.ui.contexts.window" bindingContext="_IWBaTMZTEeuIj-ZbZDNf3w">
     <bindings xmi:id="_IXNtEcZTEeuIj-ZbZDNf3w" keySequence="ALT+CTRL+SHIFT+A" command="_IWsvuMZTEeuIj-ZbZDNf3w"/>
@@ -1237,31 +1253,9 @@
   <bindingTables xmi:id="_I0uvhcZTEeuIj-ZbZDNf3w" bindingContext="_I0uvhMZTEeuIj-ZbZDNf3w"/>
   <bindingTables xmi:id="_I0vWkMZTEeuIj-ZbZDNf3w" bindingContext="_I0uvhsZTEeuIj-ZbZDNf3w"/>
   <bindingTables xmi:id="_I0vWksZTEeuIj-ZbZDNf3w" bindingContext="_I0vWkcZTEeuIj-ZbZDNf3w"/>
-  <bindingTables xmi:id="_3uRIYMZTEeuipNw75qOQlQ" elementId="com.genuitec.eclipse.inlinesearch.context" bindingContext="_3t7xMMZTEeuipNw75qOQlQ">
-    <bindings xmi:id="_3uXPAMZTEeuipNw75qOQlQ" keySequence="CTRL+BS" command="_3t4t4sZTEeuipNw75qOQlQ"/>
-    <bindings xmi:id="_3uXPAcZTEeuipNw75qOQlQ" keySequence="ALT+SHIFT+CR" command="_3t4G1MZTEeuipNw75qOQlQ"/>
-    <bindings xmi:id="_3uYdIMZTEeuipNw75qOQlQ" keySequence="ALT+SHIFT+1" command="_3t4t58ZTEeuipNw75qOQlQ"/>
-    <bindings xmi:id="_3udVocZTEeuipNw75qOQlQ" keySequence="CTRL+DEL" command="_3t4t5sZTEeuipNw75qOQlQ"/>
-    <bindings xmi:id="_3ufx4MZTEeuipNw75qOQlQ" keySequence="CTRL+ARROW_UP" command="_3t4t9MZTEeuipNw75qOQlQ"/>
-    <bindings xmi:id="_3ugY8MZTEeuipNw75qOQlQ" keySequence="CTRL+ARROW_DOWN" command="_3t4G2cZTEeuipNw75qOQlQ"/>
-  </bindingTables>
-  <bindingTables xmi:id="_3uXPAsZTEeuipNw75qOQlQ" elementId="com.genuitec.eclipse.genericeditor.genericEditorContext" bindingContext="_3t7xMsZTEeuipNw75qOQlQ">
-    <bindings xmi:id="_3uXPA8ZTEeuipNw75qOQlQ" keySequence="CTRL+SHIFT+T" command="_3t4t78ZTEeuipNw75qOQlQ"/>
-    <bindings xmi:id="_3uZEMMZTEeuipNw75qOQlQ" keySequence="CTRL+SHIFT+C" command="_3t4t6sZTEeuipNw75qOQlQ"/>
-    <bindings xmi:id="_3uZEMcZTEeuipNw75qOQlQ" keySequence="CTRL+SHIFT+F" command="_3t4t8MZTEeuipNw75qOQlQ"/>
-    <bindings xmi:id="_3uZrQMZTEeuipNw75qOQlQ" keySequence="CTRL+SHIFT+G" command="_3t4t-MZTEeuipNw75qOQlQ"/>
-    <bindings xmi:id="_3uZrQcZTEeuipNw75qOQlQ" keySequence="ALT+CTRL+H" command="_3t4t68ZTEeuipNw75qOQlQ"/>
-    <bindings xmi:id="_3uaSUMZTEeuipNw75qOQlQ" keySequence="CTRL+T" command="_3t4t9cZTEeuipNw75qOQlQ"/>
-    <bindings xmi:id="_3ubgcMZTEeuipNw75qOQlQ" keySequence="CTRL+O" command="_3t4t6MZTEeuipNw75qOQlQ"/>
-    <bindings xmi:id="_3ubgccZTEeuipNw75qOQlQ" keySequence="CTRL+SHIFT+/" command="_3t4t6cZTEeuipNw75qOQlQ"/>
-    <bindings xmi:id="_3udVoMZTEeuipNw75qOQlQ" keySequence="CTRL+SHIFT+\" command="_3t4G0MZTEeuipNw75qOQlQ"/>
-    <bindings xmi:id="_3ud8sMZTEeuipNw75qOQlQ" keySequence="F3" command="_IWt-DMZTEeuIj-ZbZDNf3w"/>
-    <bindings xmi:id="_3uejwMZTEeuipNw75qOQlQ" keySequence="F4" command="_3t4G0sZTEeuipNw75qOQlQ"/>
-  </bindingTables>
-  <bindingTables xmi:id="_3ucHgMZTEeuipNw75qOQlQ" elementId="com.genuitec.eclipse.meExplorerScope" bindingContext="_3t7xMcZTEeuipNw75qOQlQ">
-    <bindings xmi:id="_3ucHgcZTEeuipNw75qOQlQ" keySequence="ALT+SHIFT+R" command="_IWmpNsZTEeuIj-ZbZDNf3w"/>
-    <bindings xmi:id="_3ucukMZTEeuipNw75qOQlQ" keySequence="ALT+SHIFT+V" command="_IWmpF8ZTEeuIj-ZbZDNf3w"/>
-  </bindingTables>
+  <bindingTables xmi:id="_3uRIYMZTEeuipNw75qOQlQ" elementId="com.genuitec.eclipse.inlinesearch.context" bindingContext="_3t7xMMZTEeuipNw75qOQlQ"/>
+  <bindingTables xmi:id="_3uXPAsZTEeuipNw75qOQlQ" elementId="com.genuitec.eclipse.genericeditor.genericEditorContext" bindingContext="_3t7xMsZTEeuipNw75qOQlQ"/>
+  <bindingTables xmi:id="_3ucHgMZTEeuipNw75qOQlQ" elementId="com.genuitec.eclipse.meExplorerScope" bindingContext="_3t7xMcZTEeuipNw75qOQlQ"/>
   <rootContext xmi:id="_IWBaS8ZTEeuIj-ZbZDNf3w" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs and Windows" description="Either a dialog or a window is open">
     <children xmi:id="_IWBaTMZTEeuIj-ZbZDNf3w" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.eclipse.platform" name="In Windows" description="A window is open">
       <children xmi:id="_IWBaTcZTEeuIj-ZbZDNf3w" elementId="org.eclipse.e4.ui.contexts.views" contributorURI="platform:/plugin/org.eclipse.platform" name="%bindingcontext.name.bindingView"/>
@@ -1891,30 +1885,6 @@
     <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.wst.xsl.ui"/>
     <tags>View</tags>
     <tags>categoryTag:XML</tags>
-  </descriptors>
-  <descriptors xmi:id="_4A_3IMZTEeuipNw75qOQlQ" elementId="com.genuitec.eclipse.codetogether.ui.main" label="CodeTogether" iconURI="platform:/plugin/com.genuitec.eclipse.codetogether.ui/images/codetogether-16px.png" tooltip="" category="CodeTogether" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.genuitec.eclipse.codetogether.ui.views.MainView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.genuitec.eclipse.codetogether.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:CodeTogether</tags>
-  </descriptors>
-  <descriptors xmi:id="_4BBFQMZTEeuipNw75qOQlQ" elementId="com.genuitec.eclipse.codetogether.ui.client.view.TypeHierarchy" label="Type Hierarchy" iconURI="platform:/plugin/com.genuitec.eclipse.codetogether.ui/images/codetogether-16px.png" tooltip="" category="Other" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.genuitec.eclipse.lsp4e.operations.typeHierarchy.LSTypeHierarchyView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.genuitec.eclipse.codetogether.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:Other</tags>
-  </descriptors>
-  <descriptors xmi:id="_4BBsUMZTEeuipNw75qOQlQ" elementId="com.genuitec.eclipse.codetogether.ui.client.view.CallHierarchy" label="Call Hierarchy" iconURI="platform:/plugin/com.genuitec.eclipse.codetogether.ui/images/codetogether-16px.png" tooltip="" category="Other" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.genuitec.eclipse.lsp4e.operations.callHierarchy.LSCallHierarchyView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.genuitec.eclipse.codetogether.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:Other</tags>
-  </descriptors>
-  <descriptors xmi:id="_4BCTYMZTEeuipNw75qOQlQ" elementId="com.genuitec.eclipse.icons.designer.ui.views.IconsDesignerView" label="Icon Designer" iconURI="platform:/plugin/com.genuitec.eclipse.theming.icon.designer/icons/icons-designer-view.png" tooltip="" category="DevStyle" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.genuitec.eclipse.theming.icon.designer.views.IconsDesignerView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.genuitec.eclipse.theming.icon.designer"/>
-    <tags>View</tags>
-    <tags>categoryTag:DevStyle</tags>
   </descriptors>
   <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
     <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
@@ -3197,7 +3167,7 @@
   <addons xmi:id="_IWBaV8ZTEeuIj-ZbZDNf3w" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_IWBaWMZTEeuIj-ZbZDNf3w" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_IWMZYMZTEeuIj-ZbZDNf3w" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_vPrOccijEeunB8T_lkt7ew" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_IWiXoMZTEeuIj-ZbZDNf3w" elementId="org.eclipse.ui.category.edit" name="Edit"/>
   <categories xmi:id="_IWiXocZTEeuIj-ZbZDNf3w" elementId="org.eclipse.mylyn.wikitext.ui.editor.category" name="WikiText Markup Editing Commands" description="commands for editing lightweight markup"/>

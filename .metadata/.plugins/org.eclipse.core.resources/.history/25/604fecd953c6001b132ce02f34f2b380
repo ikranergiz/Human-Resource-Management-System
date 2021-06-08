@@ -1,5 +1,0 @@
-package hrms.northwind.api.controller;
-
-public class JobPositionController {
-
-}

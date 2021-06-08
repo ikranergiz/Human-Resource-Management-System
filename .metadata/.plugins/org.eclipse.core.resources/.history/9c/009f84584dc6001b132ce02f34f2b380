@@ -1,5 +1,0 @@
-package hrms.northwind.entities.concretes;
-
-public class JobPosition {
-
-}
