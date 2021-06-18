@@ -7,24 +7,25 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import hrms.northwind.business.abstracts.JobPositionService;
+import hrms.northwind.business.abstracts.EmployerService;
 import hrms.northwind.core.utilities.results.DataResult;
-import hrms.northwind.entities.concretes.JobPosition;
+import hrms.northwind.entities.concretes.Employer;
 
 @RestController
-@RequestMapping("/api/jobpositions")
-public class JobPositionController {
+@RequestMapping("/api/employers")
+public class EmployerController {
 	
-	private JobPositionService jobPositionService;
+	private EmployerService employerService;
 
 	@Autowired
-	public JobPositionController(JobPositionService jobPositionService) {
+	public EmployerController(EmployerService employerService) {
 		super();
-		this.jobPositionService = jobPositionService;
+		this.employerService = employerService;
 	}
 	
 	@GetMapping("/getall")
-	public DataResult<List<JobPosition>> getAll(){
-		return this.jobPositionService.getAll();
+	public DataResult<List<Employer>> getAll(){
+		return this.employerService.getAll();
 	}
+
 }
