@@ -4,11 +4,13 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import hrms.northwind.business.abstracts.EmployeeService;
 import hrms.northwind.core.utilities.results.DataResult;
+import hrms.northwind.core.utilities.results.Result;
 import hrms.northwind.entities.concretes.Employee;
 
 @RestController
@@ -27,6 +29,12 @@ public class EmployeeController {
 	public DataResult<List<Employee>> getAll(){
 		return this.employeeService.getAll();
 	}
+	
+	@PostMapping("/add")
+	public Result add(Employee employee) {
+		return employeeService.add(employee);
+	}
+	
 	
 	
 }

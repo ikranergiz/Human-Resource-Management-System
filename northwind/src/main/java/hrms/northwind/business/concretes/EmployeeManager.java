@@ -7,7 +7,9 @@ import org.springframework.stereotype.Service;
 
 import hrms.northwind.business.abstracts.EmployeeService;
 import hrms.northwind.core.utilities.results.DataResult;
+import hrms.northwind.core.utilities.results.Result;
 import hrms.northwind.core.utilities.results.SuccessDataResult;
+import hrms.northwind.core.utilities.results.SuccessResult;
 import hrms.northwind.dataAccess.abstracts.EmployeeDao;
 import hrms.northwind.entities.concretes.Employee;
 
@@ -26,6 +28,12 @@ public class EmployeeManager implements EmployeeService{
 	public DataResult<List<Employee>> getAll() {
 		return new SuccessDataResult<List<Employee>>
 		(this.employeeDao.findAll(), true);
+	}
+
+	@Override
+	public Result add(Employee employee) {
+		this.employeeDao.save(employee);
+		return new SuccessResult("Employee veri tabanına eklendi");
 	}
 	
 	
