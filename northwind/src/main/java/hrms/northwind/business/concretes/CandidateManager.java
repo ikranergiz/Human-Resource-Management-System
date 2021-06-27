@@ -16,7 +16,7 @@ import hrms.northwind.entities.concretes.Candidate;
 @Service
 public class CandidateManager implements CandidateService{
 
-	public CandidateDao candidateDao;
+	private CandidateDao candidateDao;
 	
 	@Autowired
 	public CandidateManager(CandidateDao candidateDao) {
@@ -25,15 +25,25 @@ public class CandidateManager implements CandidateService{
 	}
 
 	@Override
-	public DataResult<List<Candidate>> getAll() {
-		return new SuccessDataResult<List<Candidate>>
-		(candidateDao.findAll(), true,"Kullanıcılar listelendi");
+	public Result save(Candidate candidate) {
+		this.candidateDao.save(candidate);
+		return new SuccessResult("Candidate eklendi");
 	}
 
 	@Override
-	public Result add(Candidate candidate) {
-		this.candidateDao.save(candidate);
-		return new SuccessResult("veri tabanına eklendi");
+	public DataResult<List<Candidate>> getAll() {
+		return new SuccessDataResult<List<Candidate>>
+		(this.candidateDao.findAll(),"Candidates Listelendi");
 	}
+	
+
 
 }
+
+
+
+
+
+
+
+

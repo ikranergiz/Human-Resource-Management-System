@@ -6,8 +6,9 @@ import hrms.northwind.core.utilities.results.DataResult;
 import hrms.northwind.core.utilities.results.Result;
 import hrms.northwind.entities.concretes.Candidate;
 
-public interface CandidateService {
+public interface CandidateService{
 
-	DataResult<List<Candidate>> getAll();
-	Result add(Candidate candidate);
+	public Result save(Candidate candidate);
+	public DataResult<List<Candidate>> getAll();
+	
 }

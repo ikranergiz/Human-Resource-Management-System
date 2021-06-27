@@ -12,6 +12,7 @@ import hrms.northwind.core.utilities.results.SuccessDataResult;
 import hrms.northwind.core.utilities.results.SuccessResult;
 import hrms.northwind.dataAccess.abstracts.EmployerDao;
 import hrms.northwind.entities.concretes.Employer;
+import hrms.northwind.entities.concretes.User;
 
 @Service
 public class EmployerManager implements EmployerService{
@@ -25,16 +26,15 @@ public class EmployerManager implements EmployerService{
 	}
 
 	@Override
-	public DataResult<List<Employer>> getAll() {
-		return new SuccessDataResult<List<Employer>>
-		(this.employerDao.findAll(), true);
+	public Result save(Employer employer) {
+		this.employerDao.save(employer);
+		return new SuccessResult("Employer eklendi");
 	}
 
 	@Override
-	public Result add(Employer employer) {
-		this.employerDao.save(employer);
-		return new SuccessResult("Employer veri tabanına eklendi");
+	public DataResult<List<Employer>> getAll() {
+		return new SuccessDataResult<List<Employer>>
+		(this.employerDao.findAll(),"Employer listelendi");
 	}
-	
 
 }

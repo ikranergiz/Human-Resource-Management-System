@@ -32,7 +32,7 @@ public class Candidate extends User{
 	private String identityNumber;
 	
 	@Column(name = "birth_year")
-	private String yearOfbirth;
+	private int yearOfbirth;
 	
 	
 

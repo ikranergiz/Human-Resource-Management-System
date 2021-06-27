@@ -1,4 +1,4 @@
-package hrms.northwind.api.controller;
+package hrms.northwind.api.controllers;
 
 import java.util.List;
 
@@ -33,6 +33,6 @@ public class CandidateController {
 
 	@PostMapping("/add")
 	public Result add(@RequestBody Candidate candidate) {
-		return this.candidateService.add(candidate);
+		return this.candidateService.save(candidate);
 	}
 }

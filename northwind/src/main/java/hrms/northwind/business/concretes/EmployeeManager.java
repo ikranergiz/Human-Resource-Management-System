@@ -13,6 +13,7 @@ import hrms.northwind.core.utilities.results.SuccessResult;
 import hrms.northwind.dataAccess.abstracts.EmployeeDao;
 import hrms.northwind.entities.concretes.Employee;
 
+
 @Service
 public class EmployeeManager implements EmployeeService{
 
@@ -27,11 +28,11 @@ public class EmployeeManager implements EmployeeService{
 	@Override
 	public DataResult<List<Employee>> getAll() {
 		return new SuccessDataResult<List<Employee>>
-		(this.employeeDao.findAll(), true);
+		(this.employeeDao.findAll(), "Employee Listelendi");
 	}
 
 	@Override
-	public Result add(Employee employee) {
+	public Result save(Employee employee) {
 		this.employeeDao.save(employee);
 		return new SuccessResult("Employee veri tabanına eklendi");
 	}

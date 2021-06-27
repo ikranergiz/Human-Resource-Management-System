@@ -7,7 +7,7 @@ import hrms.northwind.core.utilities.results.Result;
 import hrms.northwind.entities.concretes.Employee;
 
 public interface EmployeeService {
-
-	DataResult<List<Employee>> getAll();
-	Result add(Employee employee);
+	
+	public Result save(Employee employee);
+	public DataResult<List<Employee>> getAll();
 }

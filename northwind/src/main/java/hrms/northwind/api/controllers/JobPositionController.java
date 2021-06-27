@@ -1,4 +1,4 @@
-package hrms.northwind.api.controller;
+package hrms.northwind.api.controllers;
 
 import java.util.List;
 

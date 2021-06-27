@@ -1,4 +1,4 @@
-package hrms.northwind.api.controller;
+package hrms.northwind.api.controllers;
 
 import java.util.List;
 
@@ -8,33 +8,30 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import hrms.northwind.business.abstracts.EmployeeService;
+import hrms.northwind.business.abstracts.EmployerService;
 import hrms.northwind.core.utilities.results.DataResult;
 import hrms.northwind.core.utilities.results.Result;
-import hrms.northwind.entities.concretes.Employee;
+import hrms.northwind.entities.concretes.Employer;
 
 @RestController
-@RequestMapping("/api/employees")
-public class EmployeeController {
-
-	private EmployeeService employeeService;
+@RequestMapping("/api/employers")
+public class EmployerController {
+	
+	private EmployerService employerService;
 
 	@Autowired
-	public EmployeeController(EmployeeService employeeService) {
+	public EmployerController(EmployerService employerService) {
 		super();
-		this.employeeService = employeeService;
+		this.employerService = employerService;
 	}
 	
 	@GetMapping("/getall")
-	public DataResult<List<Employee>> getAll(){
-		return this.employeeService.getAll();
+	public DataResult<List<Employer>> getAll(){
+		return this.employerService.getAll();
 	}
-	
+
 	@PostMapping("/add")
-	public Result add(Employee employee) {
-		return employeeService.add(employee);
+	public Result add(Employer employer) {
+		return this.employerService.save(employer);
 	}
-	
-	
-	
 }

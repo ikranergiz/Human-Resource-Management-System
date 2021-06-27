@@ -25,7 +25,7 @@ public class JobPositionManager implements JobPositionService{
 	@Override
 	public DataResult<List<JobPosition>> getAll() {
 		return new SuccessDataResult<List<JobPosition>>
-		(this.jobPositionDao.findAll(),true,"Data Listelendi");
+		(this.jobPositionDao.findAll(),"Data Listelendi");
 	}
 
 }

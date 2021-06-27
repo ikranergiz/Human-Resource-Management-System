@@ -4,10 +4,10 @@ import java.util.List;
 
 import hrms.northwind.core.utilities.results.DataResult;
 import hrms.northwind.core.utilities.results.Result;
-import hrms.northwind.entities.concretes.Employer;
+import hrms.northwind.entities.concretes.User;
 
-public interface EmployerService{
+public interface UserService {
 
-	public Result save(Employer employer);
-	public DataResult<List<Employer>> getAll();
+	public Result save(User user);
+	public DataResult<List<User>> getAll();
 }
