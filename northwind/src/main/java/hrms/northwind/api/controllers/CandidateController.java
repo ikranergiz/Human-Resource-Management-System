@@ -1,5 +1,6 @@
 package hrms.northwind.api.controllers;
 
+import java.rmi.RemoteException;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +33,7 @@ public class CandidateController {
 	}
 
 	@PostMapping("/add")
-	public Result add(@RequestBody Candidate candidate) {
+	public Result add(@RequestBody Candidate candidate) throws RemoteException {
 		return this.candidateService.save(candidate);
 	}
 }

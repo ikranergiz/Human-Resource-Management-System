@@ -3,10 +3,13 @@ package hrms.northwind.core.utilities.adapters.concretes;
 
 import java.rmi.RemoteException;
 
+import org.springframework.stereotype.Service;
+
 import hrms.northwind.core.utilities.adapters.abstracts.MernisCheckService;
 import hrms.northwind.entities.concretes.Candidate;
 import tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy;
 
+@Service
 public class MernisCheckManagerAdapter implements MernisCheckService{
 
 	@Override
@@ -18,7 +21,7 @@ public class MernisCheckManagerAdapter implements MernisCheckService{
 		            Long.parseLong(candidate.getIdentityNumber().toUpperCase()),
 			        candidate.getFirstName().toUpperCase(),
 		            candidate.getLastName().toUpperCase(),
-		            candidate.getYearOfbirth() // Doğum Yılı
+		            Integer.parseInt(candidate.getYearOfbirth()) // Doğum Yılı
 		            );
 		
 		return result;

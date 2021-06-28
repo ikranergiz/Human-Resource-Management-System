@@ -8,6 +8,8 @@ import hrms.northwind.entities.concretes.Employer;
 
 public interface EmployerService{
 
-	public Result save(Employer employer);
-	public DataResult<List<Employer>> getAll();
+	Result save(Employer employer);
+	DataResult<List<Employer>> getAll();
+	
+	
 }

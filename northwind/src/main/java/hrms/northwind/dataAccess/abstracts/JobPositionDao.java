@@ -7,5 +7,6 @@ import hrms.northwind.entities.concretes.JobPosition;
 
 public interface JobPositionDao extends JpaRepository<JobPosition,Integer>{
 
+	JobPosition findByJobPositionEquals(String jobPosition);
 
 }

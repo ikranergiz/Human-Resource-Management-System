@@ -6,4 +6,6 @@ import hrms.northwind.entities.concretes.Employer;
 
 public interface EmployerDao extends JpaRepository<Employer, Integer>{
 
+	Employer findByEmailEquals(String email);
+	
 }

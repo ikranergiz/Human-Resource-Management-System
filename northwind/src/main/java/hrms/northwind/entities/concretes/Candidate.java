@@ -2,6 +2,9 @@ package hrms.northwind.entities.concretes;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.Table;
 
@@ -22,6 +25,11 @@ import lombok.NoArgsConstructor;
 @Table(name = "candidates")
 public class Candidate extends User{
 	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "candidate_id")
+	private int id;
+	
 	@Column(name = "first_name")
 	private String firstName;
 	
@@ -32,7 +40,7 @@ public class Candidate extends User{
 	private String identityNumber;
 	
 	@Column(name = "birth_year")
-	private int yearOfbirth;
+	private String yearOfbirth;
 	
 	
 

@@ -4,6 +4,8 @@ import hrms.northwind.entities.concretes.Candidate;
 
 public interface CandidateCheckService {
 
-	public boolean isNull(Candidate candidate);
-	public boolean isUnique(Candidate candidate);
+	boolean isNull(Candidate candidate);
+	boolean findByIdEquals(Candidate candidate);
+	boolean findByEmailEquals(Candidate candidate);
+	boolean isConfirmedEmail(Candidate candidate);
 }
