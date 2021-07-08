@@ -17,21 +17,20 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 
-@Data
 @Entity
-@Table(name="job_positions")
-public class JobPosition {
+@Data
+@Table(name = "cities")
+public class City {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "job_position_id")
-	private int jobPositionId;
+	@Column(name = "city_id")
+	private int cityId;
 	
-	@Column(name = "position_name")
-	private String jobPosition;
+	@Column(name = "city_name")
+	private String cityName;
 	
-	@OneToMany(mappedBy = "jobPosition")
+	@OneToMany(mappedBy = "city")
 	private List<JobAdvertisement> jobAdvertisements;
-	
 
 }
