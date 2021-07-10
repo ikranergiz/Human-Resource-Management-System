@@ -1,5 +1,6 @@
 package hrms.northwind.api.controllers;
 
+import java.time.LocalDate;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import hrms.northwind.business.abstracts.JobAdvertisementService;
@@ -27,7 +29,7 @@ public class JobAdvertisementController {
 	}
 	
 	@GetMapping("/getByIsActive")
-	public DataResult<List<JobAdvertisement>> getByIsActive(boolean isActive){
+	public DataResult<List<JobAdvertisement>> getByIsActive(@RequestParam boolean isActive){
 		return this.jobAdvertisementService.getByIsActive(isActive);
 	}
 	
@@ -36,5 +38,15 @@ public class JobAdvertisementController {
 		return this.jobAdvertisementService.addJobAdvertisement(jobadvertisement);
 	}
 	
+	@GetMapping("/findByCreationDateAndIsActive")
+	public DataResult<List<JobAdvertisement>> findByCreationDateAndIsActive
+	(@RequestParam int year ,@RequestParam int month ,@RequestParam int day, @RequestParam boolean isActive) {
+		return this.jobAdvertisementService.findByCreationDateAndIsActive(LocalDate.of(year, month, day),isActive);
+	}
 	
+	@GetMapping("/getByIsActiveAndEmployer_CompanyName")
+	public DataResult<List<JobAdvertisement>> getByIsActiveAndEmployer_CompanyName
+	(@RequestParam boolean isActive,@RequestParam String companyName) {
+		return this.jobAdvertisementService.getByIsActiveAndEmployer_CompanyName(isActive, companyName);
+	}
 }

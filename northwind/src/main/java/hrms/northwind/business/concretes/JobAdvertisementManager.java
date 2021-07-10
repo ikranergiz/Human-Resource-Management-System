@@ -1,5 +1,6 @@
 package hrms.northwind.business.concretes;
 
+import java.time.LocalDate;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,6 +36,26 @@ public class JobAdvertisementManager implements JobAdvertisementService {
 	public Result addJobAdvertisement(JobAdvertisement jobAdvertisement) {
 		this.jobAdvertisementDao.save(jobAdvertisement);
 		return new SuccessResult("iş ilanı eklendi!");
+	}
+
+	@Override
+	public DataResult<List<JobAdvertisement>> findByCreationDateAndIsActive(LocalDate creationDate ,boolean isActive) {
+		return new SuccessDataResult<List<JobAdvertisement>>
+		(this.jobAdvertisementDao.findByCreationDateAndIsActive(creationDate,isActive), "Aktif iş ilanları tarihe göre listelendi!");
+	}
+
+	@Override
+	public DataResult<List<JobAdvertisement>> getByIsActiveAndEmployer_CompanyName
+	(boolean isActive, String companyName) {
+		return new SuccessDataResult<List<JobAdvertisement>>
+		(this.jobAdvertisementDao.getByIsActiveAndEmployer_CompanyName
+				(isActive, companyName), "Şirkete göre aktif ilanlar listelendi!");
+	}
+
+	@Override
+	public Result updateIsActive(boolean isActive) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
