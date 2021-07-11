@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import hrms.northwind.business.abstracts.JobAdvertisementService;
 import hrms.northwind.core.utilities.results.DataResult;
+import hrms.northwind.core.utilities.results.ErrorResult;
 import hrms.northwind.core.utilities.results.Result;
 import hrms.northwind.core.utilities.results.SuccessDataResult;
 import hrms.northwind.core.utilities.results.SuccessResult;
@@ -26,10 +27,10 @@ public class JobAdvertisementManager implements JobAdvertisementService {
 	}
 
 	@Override
-	public DataResult<List<JobAdvertisement>> getByIsActive(boolean isActive) {
+	public DataResult<List<JobAdvertisement>> findByIsActive(boolean isActive) {
 
 		return new SuccessDataResult<List<JobAdvertisement>>
-		(this.jobAdvertisementDao.getByIsActive(isActive), "iş ilanları listelendi!");
+		(this.jobAdvertisementDao.findByIsActive(isActive), "iş ilanları listelendi!");
 	}
 
 	@Override
@@ -53,9 +54,16 @@ public class JobAdvertisementManager implements JobAdvertisementService {
 	}
 
 	@Override
-	public Result updateIsActive(boolean isActive) {
-		// TODO Auto-generated method stub
-		return null;
+	public Result updateIsActive(int jobAdvertisementId, boolean isActive) {
+		JobAdvertisement jobAdvertisement = this.jobAdvertisementDao.getById(jobAdvertisementId);
+		if(jobAdvertisement != null) {
+			jobAdvertisement.setActive(isActive);
+			this.jobAdvertisementDao.save(jobAdvertisement);
+			return new SuccessResult("İş ilanı aktifliği başarıyla değiştirildi! " + isActive);
+		}
+		
+		return new ErrorResult("Böyle bir ilan bulunamadı!");
 	}
+
 
 }
